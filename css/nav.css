@@ -1,0 +1,24 @@
+
+#nav a {
+    float:right;
+    list-style: none;
+    display:block;
+    font-family: 'mathleteskinny';
+    font-size: 40px;
+    width: 200px;
+    margin:20px;
+    text-decoration: none;
+    color:black;
+    text-align:center;
+    margin-top:40px;
+}
+#nav li a:hover {
+    text-decoration: underline;
+    color:black;
+}
+
+#title {
+    margin: 20px 10px 20px 30px;
+    float:left;
+    display:block;
+}
