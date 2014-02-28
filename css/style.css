@@ -1,6 +1,9 @@
 body {
-	background: #D78DD7;
-	font-family: font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+	/*background: #D78DD7;*/
+	background:#D6B3E8;
+	/*font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;*/
+	/*font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;*/
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .home-page {
@@ -10,35 +13,35 @@ body {
 }
 #container {
 	padding: 20px;
-	width:100%;
 	right:50%;
 	left:50%;
+	width:1200px;
+	margin-right:auto;
+	margin-left:auto;
 }
 #insideContainer {
 	display:block;
+	padding:20px 20px 20px 20px;
+	margin-right:150px;
+	width:800;
+	text-align:left;
 }
-#footer {
-	font-size: 12px;
-	color: #381D38;
-	letter-spacing: 1px;
-	position:absolute;
-	bottom:0;
-	font-family: font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
-	position: absolute;	
- 	width: 300px;	
- 	height: 100px;	
- 	top:95%;	
- 	left: 50%;	
- 	margin-left: -130px;	
-}
+
+
 h1, h2, h3, h3, h4, h5 {
-	font-family: 'mathleteskinny', "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;;
+	font-family: 'mathleteskinny', "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
 }
 h1 {
 	font-size:70px;
 }
 h2 {
 	font-size:50px;
+}
+h3 {
+	font-size:40px;
+}
+h4 {
+	font-size:30px;
 }
 p {
 	font-size: 16px;
@@ -51,6 +54,35 @@ a.no-style {
 	color:black;
 }
 
+.imgCaptionLeft{
+	font-size:12px;
+	color:#551078;
+	text-align:center;
+	padding: 0px 20px 0px 20px;
+	width:300px;
+	text-decoration: none;
+	float:left;
+	font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+}
+.imgCaptionRight{
+	font-size:12px;
+	color:#551078;
+	text-align:center;
+	padding: 0px 0px 20px 20px;
+	width:300px;
+	text-decoration: none;
+	float:right;
+	font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+}
+.subHeaderRight{
+	margin-left:170px;
+}
+.subTitle {
+	font-size:30px;
+	font-family: 'mathleteskinny', "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+	margin-bottom:5px;
+}
+
 /*--------------------------CUSTOM FONTS-------------------------------------*/
 @font-face {
     font-family: 'mathleteskinny';
@@ -61,5 +93,19 @@ a.no-style {
          url('../fonts/mathlete-skinny-webfont.svg#mathleteskinny') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
+iframe {
+	text-align:center;
+}
+
+
+/*iframe {
+	position:absolute;
+	bottom:0;
+ 	top:95%;	
+ 	left: 50%;	
+ 	margin-left: -130px;	
+ 	border:0;
+}
+*/
+
